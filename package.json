@@ -4,7 +4,7 @@
   "description": "project 2 collaboration to build a project management tool geared towards software developers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "express-handlebars": "^6.0.7",
     "express-session": "^1.17.3",
     "mysql2": "^3.1.0",
+    "nodemon": "^2.0.20",
     "sequelize": "^6.28.0"
   }
 }
