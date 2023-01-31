@@ -4,14 +4,21 @@
   "description": "project 2 collaboration to build a project management tool geared towards software developers",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> c060cb2d9d149821b439fbd3f136de7d877b8672
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanhood10/ProjectManager.git"
   },
+<<<<<<< HEAD
   "keywords": [],
+=======
+>>>>>>> c060cb2d9d149821b439fbd3f136de7d877b8672
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,7 +26,18 @@
   },
   "homepage": "https://github.com/ryanhood10/ProjectManager#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.18.2",
     "express-handlebars": "^6.0.7"
+=======
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.28.0"
+>>>>>>> c060cb2d9d149821b439fbd3f136de7d877b8672
   }
 }
