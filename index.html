@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendar</title>
+<link rel ="calendarStyling" href="calendar.css " 
+    
+ 
+</head>
+<body>
+  <script id="template-row" type="text/x-handlebars-template">
+    <div class="row">
+        <input type="text" class="datePicker">
+    </div>
+</script>
+<button onclick="changeDate()">click</button>
+</body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script src="./public/js/calendar.js"></script>
+
+<script id="calendar-template" src="./views/calendar.handlebars">   </script>
+</html>
