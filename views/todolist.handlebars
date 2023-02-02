@@ -1,0 +1,36 @@
+<!-- Template -->
+<script id="some-template" type="text/x-handlebars-template">
+<div class="block-container">
+  <div class="block-header">
+    <h3>Tasks</h3>
+  </div>
+  <div class="block-content">
+    {{#each tasks}}
+    <div class="task-row">
+      <div class="priority {{priority}}">
+        <a tooltip="Task priority" class="tooltip">{{priority}}</a>
+      </div>
+      <div class="task-title">
+        <h4>{{title}}</h4>
+        <h5>{{description}}</h5>
+      </div>
+      <div class="task-status">
+        <div class="status-bar">
+          <div class="status-track">
+            <span class="status-text">{{status}}</span>
+            <div class="status-fill" style="width:{{status}}"></div>
+          </div>
+        </div>
+      </div>
+      <div class="task-time"><a  tooltip="Time remaining ( total / used )" class="tooltip">{{calcRemaining}} <small>( {{timeUsed}} / {{timeTotal}} )</small></a></div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+</script> 
+<script src="/routes/todolist.js"></script>
+
+
+
+<!-- Output --> 
+<div id="content-placeholder"></div>
