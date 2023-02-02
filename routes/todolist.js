@@ -32,22 +32,22 @@ var data = {
             timeTotal: 3.25
         }, {
             priority: "Normal",
-            title: "Can't Think of a Title",
-            description: "Something here.",
+            title: "Assign employee ID numbers",
+            description: "Give each employee their own unique employee number.",
             status: "15%",
             timeUsed: 6,
             timeTotal: 43.50
         }, {
             priority: "Low",
-            title: "Do Some Other Things",
-            description: "Put something here.",
+            title: "Change website styling",
+            description: "Edit design of company website.",
             status: "100%",
             timeUsed: 4.5,
             timeTotal: 4.75
         }, {
             priority: "Low",
-            title: "Lost All Creativity",
-            description: "Try to come up with more creative titles.",
+            title: "Resupply company cleaning supplies.",
+            description: "Go to store to purchase janitorial supplies.",
             status: "10%",
             timeUsed: 1,
             timeTotal: 4.75
