@@ -22,3 +22,19 @@ header, .project:not(:last-child) {
     font-weight: bold;
     margin-left: -5px;
   }
+
+  .form-style {
+    border: 1px solid black;
+    margin: 15px;
+    width: 50vw;
+    height: 30vh;
+
+  }
+
+  .login-style {
+    background-color: #ccc;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
