@@ -1,40 +1,118 @@
-header, .project:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .no-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #1b89bc;
-    text-decoration: none;
-    font-size: 100%;
-  }
-  
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
-  
-  .dollar-amount {
-    color: #056605;
-    font-weight: bold;
-    margin-left: -5px;
-  }
+/* header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+} */
 
-  .form-style {
-    border: 1px solid black;
-    margin: 15px;
-    width: 50vw;
-    height: 30vh;
+h1 {
+  text-align: center;
+}
 
-  }
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
 
-  .login-style {
-    background-color: #ccc;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+
+.form-style {
+  border: 1px solid black;
+  margin: 15px;
+  width: 50vw;
+  height: 30vh;
+
+}
+
+.login-style {
+  background-color: #ccc;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 7%;
+}
+
+.login-container,
+.signup-container {
+  width: 80%;
+  height: 35%;
+}
+
+.login-container {
+  margin-bottom: 5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px #000;
+  border-style: none;
+}
+
+.signup-container {
+  height: 45%;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px #000;
+  border-style: none;
+}
+
+.form-title {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.form-label {
+  color: #444;
+}
+
+.form-input {
+  margin-bottom: 1.5rem;
+}
+
+.form-btn {
+  background-color: #444;
+  border-style: none;
+}
+
+.form-btn:hover {
+  background-color: #bbb;
+  color: #222;
+}
+
+.motto {
+  color: #444;
+  text-align: center;
+}
+
+#logout {
+  color: #444;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+#login{
+  color: #444;
+  font-size: 20px;
+}
+
+hr {
+  margin: 0%;
+}
+
+body {
+  background-color:  #f2f2f2;
+}
+
