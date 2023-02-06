@@ -1,21 +1,16 @@
 <div class="container">
-    <h1 class="brand"><span>Acme</span> Web Design</h1>
+    <h1 class="brand"><span></span></h1>
     <div class="wrapper animated bounceInLeft">
       <div class="company-info">
-        <h3>Acme Web Design</h3>
-        <ul>
-          <li><i class="fa fa-road"></i> 44 Something st</li>
-          <li><i class="fa fa-phone"></i> (555) 555-5555</li>
-          <li><i class="fa fa-envelope"></i> test@acme.test</li>
-        </ul>
+        <h3>Project Pilot</h3>
       </div>
       <div class="contact">
-        <h3>Email Us</h3>
+        <h3>Set Email Reminder</h3>
         {{{msg}}}
         <form method="POST" action="send">
           <p>
             <label>Name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" required>
           </p>
           <p>
             <label>Company</label>
@@ -23,14 +18,14 @@
           </p>
           <p>
             <label>Email Address</label>
-            <input type="email" name="email">
+            <input type="email" name="email" required>
           </p>
           <p>
             <label>Phone Number</label>
             <input type="text" name="phone">
           </p>
           <p class="full">
-            <label>Message</label>
+            <label>Reminder Message</label>
             <textarea name="message" rows="5"></textarea>
           </p>
           <p class="full">
