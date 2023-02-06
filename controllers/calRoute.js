@@ -36,7 +36,7 @@ var dayOfWeek = dayjs().day()
 app.get('/', async (req, res) => {
    // res.send('hello world');
    const currentMonth = dayjs().format('MMMM');
-   res.sendFile(path.join(__dirname, "../index.html"));
+  //  res.sendFile(path.join(__dirname, "../index.html"));
 
 
 })
