@@ -113,7 +113,7 @@ hr {
 }
 
 body {
-  background-color:  #f2f2f2;
+  background-color: white;
   color:#485e74;
   line-height:1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -223,9 +223,10 @@ ul{
   color: #444;
   font-size: 20px;
   padding-right: 5px;
+  float: right;
 }
 
 #logo {
-  width: 25px;
-  height: 25px;
+  width: 70px;
+  height: 70px;
 }
