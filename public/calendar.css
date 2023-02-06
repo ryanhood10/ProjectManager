@@ -91,7 +91,7 @@
 
 .cardsForDays {
   width: calc(100% / 9);
-  height: calc(100% / 5);
+  /* height: calc(100% / 5); */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   padding: 10px;

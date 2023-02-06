@@ -27,6 +27,13 @@
         {{!-- {{/if}} --}}
       </nav>
     </header>
+    <br>
+    <button id="goToCalButton">Go to Calendar</button>
+<script>
+document.getElementById("goToCalButton").addEventListener("click", function() {
+  window.location.href = "/calendar";
+});
+</script>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
