@@ -232,3 +232,8 @@ ul{
   top: -40px;
   position: relative;
 }
+
+#pretty-plane {
+  height: 100%;
+  width: 100%;
+}
