@@ -1,0 +1,101 @@
+/* THIS IS THE CSS FOR THE CALENDAR DATA*/
+#dayofweekheader{
+  color: black;
+}
+.calInput{
+    background-color:antiquewhite;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .dailyEventOutput {
+    margin: 2px;
+  
+    width: 100px;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 0.5s;
+  }
+  
+#calDivIntro{
+  margin: 2px;
+  padding: 2px;
+  width: 96%;
+}
+#dayofweekheader{
+  margin: 2px;
+    padding: 2px;
+    width: 96%;
+  
+}
+  
+
+.calEnterButton {
+  margin: 2px;
+  width: 96%;
+  background: linear-gradient(to right, blue, black);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calDeleteButton {
+  margin: 2px;
+  width: 96%;
+  background: linear-gradient(to right, #ff4040, rgb(75, 73, 73));
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.calendarContainer {
+  display: flex;
+  flex-wrap: wrap ;
+  width: 65rem;
+  height: 85rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border-style: groove;
+
+
+}
+
+#calTitle{
+  align-items: center;
+  align-content: center;
+}
+
+.cardsForDays {
+  width: calc(100% / 9);
+  height: calc(100% / 5);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  background-color:aliceblue;
+  overflow: hidden;
+}
+/* TO DO: ADD CSS FOR A 7 COLUMN 5 ROW CHART TO POPULATE DATA INTO */
