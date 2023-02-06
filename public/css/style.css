@@ -227,6 +227,8 @@ ul{
 }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
+  top: -40px;
+  position: relative;
 }
