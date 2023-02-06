@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/calendar.css">
+    <script type="text/javascript" src="/calander.js"></script>
+    <title>Document</title>
+</head>
+<h1 class="title"> Title to project</h1>
+<body>
+
+<h1 id="calTitle ">{{currentMonth}}</h1>
+<h3> Click on a date to schedule an email alert for an event </h3>
+
+<div class="calendarContainer">
+
+  {{#each calendarDays}}
+    
+
+    <div class="cardsForDays">     
+      <h4 id="calDivIntro"> Today is {{dayOfWeek}} {{date}} </h4>
+      <h5>   {{dayDate}}  </h5>
+      <h6 id ='dayofweekheader'> {{dayOfWeek}} Events </h6>
+      <input class= 'calInput' id="{{date}}-input" type="text" placeholder="Enter Event here">
+      <button class="calEnterButton" id="{{date}}-button-enter">Enter event</button>
+      <button class ="calDeleteButton" id="{{date}}-button-delete">Delete event</button>
+      <output class="dailyEventOutput" id="{{date}}-output" type="text" ></output>
+    </div>   
+  {{/each}}
+
+</tbody>
+</table>
+</div>
+<br>
+    
+</body>
+
+
+
+</html>
