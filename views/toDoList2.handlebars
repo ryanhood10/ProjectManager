@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="/toDoList2.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="input-task">
+    <button id="add-task">Add Task</button>
+    <ul id="task-list"></ul>
+    <script>
+        var inputTask = document.getElementById("input-task");
+        var addTaskButton = document.getElementById("add-task");
+        var taskList = document.getElementById("task-list");
+
+      addTaskButton.addEventListener("click", function() {
+            var taskName = inputTask.value;
+            var newTask = document.createElement("li");
+            newTask.innerHTML = taskName;
+            newTask.style.cursor = "pointer";
+            newTask.addEventListener("click", function() {
+                if (this.style.textDecoration === "line-through") {
+                    this.style.textDecoration = "none";
+                } else {
+                    this.style.textDecoration = "line-through";
+                }
+            });
+            taskList.appendChild(newTask);
+        });
+    </script>
+</body>
+
+</html>
