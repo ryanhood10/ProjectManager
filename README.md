@@ -35,7 +35,9 @@ npm run start
    
 
 ## Authors
-Ryan Hood, Coulson Portor, Jordon Gilespie
+Ryan Hood -  https://github.com/ryanhood10
+Coulson Portor - https://github.com/CoulsonP
+Jordon Gilespie - https://github.com/Jorgill98
 
 ## License
 
