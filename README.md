@@ -41,3 +41,7 @@ Ryan Hood, Coulson Portor, Jordon Gilespie
 
 ##Acknowledgments
 Our inspiration for this project was to make it easier for a specific team of project developers to communicate and collaborate. This project has more potential to be built upon to become a nice collaboration interface. 
+
+
+https://user-images.githubusercontent.com/114943155/217142039-3e78f5b9-a3f7-4ba3-ac35-a08ac607fa65.jpg
+
