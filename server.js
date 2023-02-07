@@ -8,6 +8,9 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers/calRoute');
+
+const todo2route = require('./controllers/todo2route');
+
 // const helpers = require('./utils/helpers');
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -47,7 +50,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controllers/'));
 //routes variable put in by dev RH
-app.use(routes)
+app.use(routes);
+app.use(todo2route);
+
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
