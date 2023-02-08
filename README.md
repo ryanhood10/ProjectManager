@@ -33,6 +33,7 @@ npm run start
  * JavaScript
  * CSS
  * NodeMailer
+ * DotEnv
    
 
 ## Authors
