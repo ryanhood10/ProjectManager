@@ -28,11 +28,11 @@ npm run start
 
 
 ## Built With
-  Handlebars
-  Express
-  JavaScript
-  CSS
-  NodeMailer
+ * Handlebars
+ * Express
+ * JavaScript
+ * CSS
+ * NodeMailer
    
 
 ## Authors
