@@ -11,7 +11,7 @@ app.set("view engine", "handlebars");
 //render the content of calendar into main handlebars
 app.get('/', async (req, res) => {
 
-    res.sendFile(path.join(__dirname, "../index.html"));
+  //  res.sendFile(path.join(__dirname, "../index.html"));
  
  
  })

@@ -35,7 +35,7 @@ var dayOfWeek = dayjs().day()
 //render the content of calendar into main handlebars
 app.get('/', async (req, res) => {
    // res.send('hello world');
-   const currentMonth = dayjs().format('MMMM');
+   // const currentMonth = dayjs().format('MMMM');
   //  res.sendFile(path.join(__dirname, "../index.html"));
 
 
