@@ -2,9 +2,10 @@
   "name": "projectmanager",
   "version": "1.0.0",
   "description": "project 2 collaboration to build a project management tool geared towards software developers",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
